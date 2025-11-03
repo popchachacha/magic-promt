@@ -1,0 +1,48 @@
+{
+  "app": {
+    "title": "Magic Prompt",
+    "tagline": "Многоуровневый помощник для промптов изображений",
+    "mode_simple": "Простой режим",
+    "mode_advanced": "Расширенный режим",
+    "language_switch": "Выбор языка"
+  },
+  "sidebar": {
+    "heading": "Этапы",
+    "completed": "Готово",
+    "pending": "В процессе",
+    "preset_label": "Пресет"
+  },
+  "canvas": {
+    "idea_seed": "Исходная идея",
+    "story_genre": "Сюжет и жанр",
+    "style_visual": "Визуальный стиль",
+    "technique_camera": "Техника и детали",
+    "delivery_export": "Финальный промпт",
+    "prompt_ru": "Промпт (RU)",
+    "prompt_en": "Промпт (EN)"
+  },
+  "insight": {
+    "templates": "Шаблоны",
+    "history": "История версий",
+    "tags": "Быстрые теги",
+    "notes_placeholder": "Добавьте заметку…"
+  },
+  "actions": {
+    "generate": "Сгенерировать слой",
+    "regenerate": "Перегенерировать",
+    "export": "Экспорт",
+    "save_project": "Сохранить проект",
+    "load_project": "Загрузить проект"
+  },
+  "dialogs": {
+    "preview_title": "Предпросмотр промпта",
+    "export_markdown": "Экспорт в Markdown",
+    "export_json": "Экспорт в JSON",
+    "close": "Закрыть"
+  },
+  "notifications": {
+    "saved": "Промпт сохранён",
+    "error": "Произошла ошибка",
+    "offline_mode": "Работаем офлайн с локальной моделью"
+  }
+}

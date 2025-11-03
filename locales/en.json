@@ -1,0 +1,48 @@
+{
+  "app": {
+    "title": "Magic Prompt",
+    "tagline": "Layered assistant for image prompt crafting",
+    "mode_simple": "Simple Mode",
+    "mode_advanced": "Advanced Mode",
+    "language_switch": "Language"
+  },
+  "sidebar": {
+    "heading": "Stages",
+    "completed": "Done",
+    "pending": "In progress",
+    "preset_label": "Preset"
+  },
+  "canvas": {
+    "idea_seed": "Initial Idea",
+    "story_genre": "Story & Genre",
+    "style_visual": "Visual Style",
+    "technique_camera": "Technique & Details",
+    "delivery_export": "Final Prompt",
+    "prompt_ru": "Prompt (RU)",
+    "prompt_en": "Prompt (EN)"
+  },
+  "insight": {
+    "templates": "Templates",
+    "history": "Version History",
+    "tags": "Quick Tags",
+    "notes_placeholder": "Add a note…"
+  },
+  "actions": {
+    "generate": "Generate Stage",
+    "regenerate": "Regenerate",
+    "export": "Export",
+    "save_project": "Save Project",
+    "load_project": "Load Project"
+  },
+  "dialogs": {
+    "preview_title": "Prompt Preview",
+    "export_markdown": "Export Markdown",
+    "export_json": "Export JSON",
+    "close": "Close"
+  },
+  "notifications": {
+    "saved": "Prompt saved",
+    "error": "Something went wrong",
+    "offline_mode": "Offline mode with local model"
+  }
+}
