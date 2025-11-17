@@ -10,7 +10,9 @@
     "heading": "Stages",
     "completed": "Done",
     "pending": "In progress",
-    "preset_label": "Preset"
+    "active": "Now",
+    "preset_label": "Preset",
+    "progress": "Stage {current}/{total}"
   },
   "canvas": {
     "idea_seed": "Initial Idea",
@@ -19,12 +21,15 @@
     "technique_camera": "Technique & Details",
     "delivery_export": "Final Prompt",
     "prompt_ru": "Prompt (RU)",
-    "prompt_en": "Prompt (EN)"
+    "prompt_en": "Prompt (EN)",
+    "template_heading": "System instruction",
+    "collects_heading": "Focus fields"
   },
   "insight": {
     "templates": "Templates",
     "history": "Version History",
     "tags": "Quick Tags",
+    "notes": "Notes",
     "notes_placeholder": "Add a note…"
   },
   "actions": {

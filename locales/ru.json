@@ -10,7 +10,9 @@
     "heading": "Этапы",
     "completed": "Готово",
     "pending": "В процессе",
-    "preset_label": "Пресет"
+    "active": "Сейчас",
+    "preset_label": "Пресет",
+    "progress": "Шаг {current} из {total}"
   },
   "canvas": {
     "idea_seed": "Исходная идея",
@@ -19,12 +21,15 @@
     "technique_camera": "Техника и детали",
     "delivery_export": "Финальный промпт",
     "prompt_ru": "Промпт (RU)",
-    "prompt_en": "Промпт (EN)"
+    "prompt_en": "Промпт (EN)",
+    "template_heading": "Системное задание",
+    "collects_heading": "Что уточняем"
   },
   "insight": {
     "templates": "Шаблоны",
     "history": "История версий",
     "tags": "Быстрые теги",
+    "notes": "Заметки",
     "notes_placeholder": "Добавьте заметку…"
   },
   "actions": {
