@@ -34,6 +34,27 @@ def build_stylesheet(tokens: ThemeTokens | None = None) -> str:
             color: {tokens.color_text};
             font-family: 'Inter', 'Segoe UI', sans-serif;
         }}
+        QLabel[class="title"] {{
+            font-size: 24px;
+            font-weight: 700;
+        }}
+        QLabel[class="subtitle"] {{
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }}
+        QLabel[class="muted"] {{
+            color: {tokens.color_text_muted};
+        }}
+        QLabel[class="chip"] {{
+            background-color: {tokens.color_background};
+            border-radius: 10px;
+            padding: 6px 10px;
+            border: 1px solid {tokens.color_border};
+            font-size: 12px;
+            color: {tokens.color_text_muted};
+        }}
         QListWidget {{
             background-color: transparent;
             border: none;
@@ -57,5 +78,12 @@ def build_stylesheet(tokens: ThemeTokens | None = None) -> str:
             background-color: transparent;
             color: {tokens.color_primary};
             border: 1px solid {tokens.color_primary};
+        }}
+        QTextEdit {{
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid {tokens.color_border};
+            border-radius: {tokens.radius};
+            padding: 8px 10px;
+            color: {tokens.color_text};
         }}
     """
